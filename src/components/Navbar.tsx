@@ -66,9 +66,9 @@ export const Navbar = () => {
                           {item}
                       </Link>
                     ))}
-                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
+                    {/*<Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
                         Get Started
-                    </Link>
+                    </Link>*/}
                   </>
                 </Disclosure.Panel>
               </div>
