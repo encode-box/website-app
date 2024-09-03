@@ -8,9 +8,9 @@ export const Hero = () => {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+          <h3 id="Product" className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
               Unifying Real-World Data Analytics
-            </h1>
+            </h3>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               EncodeBox is a real-world data analytics platform that provides a unified interface to directly connect various data sources and seamlessly perform all the analytics needed for real-world evidence generation.
             </p>

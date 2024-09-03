@@ -4,6 +4,7 @@ import { Container }  from "@/components/Container";
 
 interface BenefitsProps {
   imgPos?: "left" | "right";
+  id?: string;
   data: {
     imgPos?: "left" | "right";
     title: string;
@@ -16,11 +17,12 @@ interface BenefitsProps {
     }[];
   };
 }
+
 export const Benefits = (props: Readonly<BenefitsProps>) => {
-  const { data } = props;
+  const { data, id } = props;
   return (
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
-        <div
+        <div 
           className={`flex items-center justify-center w-full lg:w-1/2 ${
             props.imgPos === "right" ? "lg:order-1" : ""
           }`}>
@@ -29,7 +31,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
               src={data.image}
               width={521}
               height={521}
-              alt="Benefits"
+              alt="Consulting"
               className={"object-cover"}
               placeholder="blur"
               blurDataURL={data.image.src}
@@ -42,7 +44,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
             data.imgPos === "right" ? "lg:justify-end" : ""
           }`}>
           <div>
-            <div className="flex flex-col w-full mt-4">
+            <div id={id} className="flex flex-col w-full mt-4">
               <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
                 {data.title}
               </h3>
@@ -59,8 +61,22 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
                 </Benefit>
               ))}
             </div>
+            <div className="w-full mt-8 ml-12">
+            <a
+                href="https://forms.gle/1ioPubgJMnhaPx1w9"
+                target="_blank"
+                rel="noopener"
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md ">
+                Inquiry
+              </a>
+            </div>
+            
+           
           </div>
         </div>
+
+        
+
       </Container>
   );
 };

@@ -11,24 +11,24 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Data Science in the Pharma Industry",
+  desc: "We also provide consulting services to help pharmacuetical and biotech companies unlock the full potential of their data to drive innovation and growth.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Experience in Pharmaceuticals",
+      desc: "Years of industry experience in broad pharmaceutical landscape,spanning from early-stage drug discovery to clinical trials and real-world evidence",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Multifaceted Expertise",
+      desc: "Profound expertise in data science (statistics, ML, AI, LLM, NLP) and engineering (informatics, database, web-development, programming in Python, R, SQL)",
+      icon: <CursorArrowRaysIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Innovation in Data Science and AI",
+      desc: "Consistently pioneered and developed innovative statistical and AI algorithms to distill insights from biological and healthcare datasets",
+      icon: <ChartBarSquareIcon />,
     },
   ],
 };

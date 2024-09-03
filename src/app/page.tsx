@@ -7,7 +7,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
-import { benefitOne, benefitTwo } from "@/components/data";
+import { benefitOne } from "@/components/data";
 export default function Home() {
   return (
     <Container>
@@ -19,10 +19,11 @@ export default function Home() {
         Nextly is a free landing page & marketing website template for startups
         and indie projects. Its built with Next.js & TailwindCSS. And its
         completely open-source.
-      </SectionTitle>
+      </SectionTitle>*/}
 
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      <Benefits data={benefitOne} id="Consulting"/>
+     
+      {/*<Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
         preTitle="Watch a video"
