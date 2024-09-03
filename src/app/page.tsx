@@ -21,7 +21,7 @@ export default function Home() {
         completely open-source.
       </SectionTitle>*/}
 
-      <Benefits data={benefitOne} id="Consulting"/>
+      <Benefits data={benefitOne} id="Service"/>
      
       {/*<Benefits imgPos="right" data={benefitTwo} />
 

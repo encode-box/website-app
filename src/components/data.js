@@ -12,7 +12,7 @@ import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "Data Science in the Pharma Industry",
-  desc: "We also provide consulting services to help pharmacuetical and biotech companies unlock the full potential of their data to drive innovation and growth.",
+  desc: "We also provide consulting services to help pharma and biotech companies unlock the full potential of biological and healthcare data to drive innovation and growth in drug development.",
   image: benefitOneImg,
   bullets: [
     {
