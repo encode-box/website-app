@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 
 import { Navbar } from "@/components/Navbar";
@@ -30,6 +32,8 @@ export default function RootLayout({
           <Footer />
           <PopupWidget />
         </ThemeProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
       <GoogleAnalytics gaId="G-H2ZXNK3D2X" />
     </html>
