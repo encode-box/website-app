@@ -17,7 +17,7 @@ const benefitOne = {
   bullets: [
     {
       title: "Experience in Pharmaceuticals",
-      desc: "Years of industry experience in broad pharmaceutical landscape,spanning from early-stage drug discovery to clinical trials and real-world evidence",
+      desc: "Years of industry experience in broad pharmaceutical landscape, spanning from early-stage drug discovery to clinical trials and real-world evidence",
       icon: <FaceSmileIcon />,
     },
     {
