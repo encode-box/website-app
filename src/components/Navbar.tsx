@@ -5,10 +5,7 @@ import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
-  const navigation: string[] = [
-    "Product",
-    "Service",
-  ];
+  const navigation: string[] = [];
 
   return (
     <div className="w-full">
@@ -63,9 +60,6 @@ export const Navbar = () => {
                           {item}
                       </Link>
                     ))}
-                    <Link href="/About" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">         
-                        About
-                    </Link>
                   </>
                 </Disclosure.Panel>
               </div>
@@ -83,9 +77,6 @@ export const Navbar = () => {
                 </Link>
               </li>
             ))}
-            <Link href="/About" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">         
-            About
-           </Link>
           </ul>
         </div>
 

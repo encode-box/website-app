@@ -60,7 +60,9 @@ export function Footer() {
             </div>
           </div>
           <div className="">
-            <div>Follow us</div>
+            <div> <a href="./PrivacyPolicy" target="_blank" rel="noopener">
+                Privacy Policy
+              </a></div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
              {/* <a
                 href="https://twitter.com/web3templates"
@@ -86,10 +88,7 @@ export function Footer() {
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>*/}
-              <a href="https://www.linkedin.com/company/encodebox-platform" target="_blank" rel="noopener">
-                <span className="sr-only">Linkedin</span>
-                <Linkedin />
-              </a>
+             
             </div>
           </div>
         </div>
